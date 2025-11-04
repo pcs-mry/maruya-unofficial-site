@@ -1,6 +1,6 @@
 
 import './VideoBackground.css'
-import bgVideo from '../assets/video/vid-01.mp4'
+import bgVideo from '../assets/video/vid-02.mp4'
 
 export default function VideoBackground() {
     return (
