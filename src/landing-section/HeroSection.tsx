@@ -1,6 +1,8 @@
 import VideoBackground from "../component/VideoBackground"
 import CountdownTimer from "../component/CountdownTimer"
+
 export default function HeroSection() {
+
     const nextEvent = new Date('May 19, 2026 12:10:52');
 
     return (

@@ -1,4 +1,3 @@
-
 import './VideoBackground.css'
 import bgVideo from '../assets/video/vid-02.mp4'
 

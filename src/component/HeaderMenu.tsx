@@ -1,3 +1,4 @@
+import mryLogo from '../assets/image/logo/maruya-logo.png'
 import './HeaderMenu.css'
 
 export default function HeaderMenu() {
@@ -8,7 +9,7 @@ export default function HeaderMenu() {
                     <a href="#">
                         <img
                             className='w-[120px]'
-                            src="src/assets/image/logo/maruya-logo.png" alt=""
+                            src={mryLogo} alt=""
                         />
                     </a>
                     <ul className="text-white flex items-center justify-center">

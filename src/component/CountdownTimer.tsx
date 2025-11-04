@@ -15,7 +15,6 @@ export default function CountdownTimer(
                     <>
                         Now
                     </>
-
                 ) : (
                     <>
                         <div className="flex justify-between md:w-4xl text-center text-white items-center">
