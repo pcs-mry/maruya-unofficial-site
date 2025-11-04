@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()],
-  base:"/maruya-unofficial"
+  base:"/maruya-unofficial-site/"
 })
