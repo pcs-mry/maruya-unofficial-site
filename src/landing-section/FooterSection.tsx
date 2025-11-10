@@ -1,7 +1,6 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
-import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { socialmedia } from "../data-assets/socialmedia"
 import myrBg from '../assets/image/logo/maruya-bg.jpg'
 
 const backgroundStyle = { backgroundImage: `url(${myrBg})` }
@@ -16,8 +15,22 @@ export default function FooterSection() {
                             Follow us
                         </p>
                         <div>
-                            <FontAwesomeIcon icon={faSquareFacebook} size="2x" inverse />
-                            <FontAwesomeIcon icon={faSquareXTwitter} size="2x" inverse />
+                            <ul className="list-none text-white">
+                                {
+                                    socialmedia.data.map((socialData, index) => (
+                                        <li className={index < socialmedia.data.length ? 'mb-4' : ''} key={index}>
+                                            <a href={socialData.snsName === 'email' ? `mailto:${socialData.url}` : socialData.url} target="_blank">
+                                                <p className="flex items-center text-xl">
+                                                    <FontAwesomeIcon className="mr-2" icon={socialData.icon} size="2x" inverse />
+                                                    <span>
+                                                        {socialData.accountTextName}
+                                                    </span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
                         </div>
                     </div>
                 </div>
