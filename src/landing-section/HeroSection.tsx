@@ -17,14 +17,9 @@ export default function HeroSection() {
                     <div>
                         <div className="p-8 w-2xl text-right text-white">
                             <h1 className="font-bold text-5xl mb-3">Welcome to MARUYA</h1>
-                            <h2 className="text-2xl">Where Imagination Comes to Life</h2>
                             <p className="text-xl mt-4">
-                                Join Thailand's largest community of creators and fans!
-                                Explore the Artist Circle Zone for unique fan-made goods,
-                                snap photos with dazzling cosplayers,
-                                and enjoy non-stop stage entertainment. Celebrate your passion with us.
+                                The largest handmade marketplace and gathering for fans of cartoons, anime, games, cosplay, and pop culture in Thailand.
                             </p>
-
                         </div>
                     </div>
                 </section>
